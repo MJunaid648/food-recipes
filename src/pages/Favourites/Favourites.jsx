@@ -6,7 +6,7 @@ const Favourites = () => {
   const { favouritesList } = useContext(GlobalContext);
   return (
     <div className="py-8 container mx-auto flex flex-wrap justify-center gap-10">
-      {favouritesList && favouritesList .length > 0 ? (
+      {favouritesList && favouritesList.length > 0 ? (
         favouritesList.map((item, index) => (
           <RecipeItem key={index} item={item} />
         ))
