@@ -11,9 +11,12 @@ const Favourites = () => {
           <RecipeItem key={index} item={item} />
         ))
       ) : (
-        <div className="lg:text-4xl text-xl text-center  text-black font-extrabold">
-          Nothing is added in favourites.
-        </div>
+      
+        <div className="m-6 flex justify-center items-center">
+        <p className="mt-14 text-2xl font-semibold text-black tracking-wider">
+        Nothing is added in favourites.
+        </p>
+      </div>
       )}
     </div>
   );
