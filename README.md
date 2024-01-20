@@ -2,6 +2,11 @@
 
 Foodie is a dynamic React application that allows users to search for their favorite recipes using the Forkify API. The app provides a beautiful mobile-responsive UI for an enhanced user experience. Users can not only search for recipes but also save their favorite ones in the favorites section.
 
+## Live Demo
+
+![Foodie App Screenshot](https://github.com/MJunaid648/food-recipes/blob/main/Foodie.png)
+[Click here to check Foodie out.](https://foodie648.netlify.app/)
+
 ## Features
 
 - **Recipe Search:** Search for a wide variety of recipes using the Forkify API.
